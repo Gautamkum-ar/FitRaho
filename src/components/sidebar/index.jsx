@@ -25,14 +25,14 @@ const navItems = [
 
 export const Sidebar = () => {
 	const ActiveStyle = ({ isActive }) => ({
-		background: isActive ? "rgb(133,199,216,0.8)" : "",
+		background: isActive ? "#fff" : "",
 	});
 	return (
 		<div className="flex flex-col justify-center items-center pt-4 w-full">
 			<ul className="w-full font-bold  text-xl text-[#555] ">
 				{navItems.map((item) => (
 					<li
-						className="w-full h-10 justify-center items-center flex "
+						className="w-full h-10 justify-center items-center flex"
 						key={item.id}>
 						<NavLink
 							className="w-full flex h-full  items-center p-4 pl-10"
