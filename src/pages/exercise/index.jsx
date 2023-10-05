@@ -41,7 +41,7 @@ export const Exercise = () => {
 							{exerciseData?.map((item) => (
 								<tr
 									key={item._id}
-									className="flex justify-between w-full items-center px-3 border-b h-8">
+									className="flex justify-between w-full items-center px-3 border-b ">
 									<td className="w-[25%] items-center flex">{item.name}</td>
 									<td className="w-[25%] items-center flex justify-center">
 										{item.duration}
