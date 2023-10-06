@@ -35,7 +35,7 @@ export const Sidebar = () => {
 						className="w-full h-10 justify-center items-center flex"
 						key={item.id}>
 						<NavLink
-							className="w-full flex h-full  items-center p-4 pl-10"
+							className="w-full flex h-full  items-center p-4 pl-10 hover:bg-[#f0f0f0c3] ease-in-out"
 							style={ActiveStyle}
 							to={item.route}>
 							{item.name}
